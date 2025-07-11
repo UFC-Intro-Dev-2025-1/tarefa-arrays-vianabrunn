@@ -31,14 +31,9 @@
     },
     "remoteUser": "node",
     "features": {
-        "ghcr.io/devcontainers/features/common-utils:2": {
-            "installZsh": true, // Adiciona o Zsh ao contêiner
-            "installOhMyZsh": true
-        },
+        "ghcr.io/devcontainers/features/common-utils:2": {},
         "ghcr.io/devcontainers/features/github-cli:1": {},
-        "ghcr.io/devcontainers-extra/features/zsh-plugins:0": {
-            "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions"
-        },
+        "ghcr.io/devcontainers-extra/features/zsh-plugins:0": {},
         "ghcr.io/guiyomh/features/vim:0": {}
     },
     "postCreateCommand": "npm install"
